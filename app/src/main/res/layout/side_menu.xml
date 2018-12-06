@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="#333"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/header_close_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/icon_side_menu_close" />
+
+    <Button
+        android:id="@+id/footer_logout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="ログアウト" />
+
+    <Button
+        android:id="@+id/footer_search"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="在庫検索" />
+
+    <Button
+        android:id="@+id/arrival_qr"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="入荷" />
+
+    <Button
+        android:id="@+id/shipment_qr"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="出荷" />
+</LinearLayout>
